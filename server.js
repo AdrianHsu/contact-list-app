@@ -8,7 +8,7 @@ var db_host = '31561';
 var db_name = 'adrian_demo';
 
 
-var db = mongojs('contactlist', ['contactlist']);
+var db = mongojs('/contactlist', ['contactlist']);
 // var db = mongojs('mongodb://' + mongolab_username + ':' + mongolab_password + '@ds0' + db_host + '.mongolab.com:' + db_host + '/' + db_name, ['contactlist']);
 var bodyParser = require('body-parser');
 
